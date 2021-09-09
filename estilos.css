@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-top: 70px;  
+  font-family: "Quicksand";
+  min-width: 100%;
+  height: auto;
+  /* background: rgb(209,255,220);
+  background: linear-gradient(90deg, rgba(209,255,220,1) 0%, rgba(172,228,175,1) 39%, rgba(176,231,183,1) 66%, rgba(189,241,205,1) 100%); */
+}
+.titulo-seccion{
+  color: rgb(48, 59, 46);
+  text-align: center;
+}
+.titulo-footer{
+  color: rgb(48, 59, 46);
+  text-align: center;
+}
+.menu-icon{
+  position: fixed;
+  top: 10px;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  left: 10px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: rgb(55, 104, 43);
+  cursor: pointer;
+  z-index: 1;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: -75px;
+  left: 0;
+  background: rgb(75, 119, 60,0.9);
+  box-shadow: 1px 0 3px 2px #333;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+nav.active {
+  top: 0;
+}
+nav ul {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+}
+nav ul li {
+  margin: 0 25px;
+  padding: 3px 0;
+  opacity: 0;
+  cursor: pointer;
+}
+nav ul li:nth-child(1) {
+  color: #f98866;
+  transition: opacity 0.5s 0.5s ease-in;
+}
+nav ul li:nth-child(1) a {
+  color: #f98866;
+  text-decoration: none;
+}
+nav ul li:nth-child(2) {
+  color: #f1e99f;
+  transition: opacity 1s 1s ease-in;
+}
+nav ul li:nth-child(2) a {
+  color: #f1e99f;
+  text-decoration: none;
+}
+nav ul li:nth-child(3) {
+  color: #80BD9E;
+  transition: opacity 1.5s 1.5s ease-in;
+}
+nav ul li:nth-child(3) a {
+  color: #80BD9E;
+  text-decoration: none;
+}
+nav ul li:nth-child(4) {
+  color: #89DA59;
+  transition: opacity 2s 2s ease-in;
+}
+nav ul li:nth-child(4) a {
+  color: #89DA59;
+  text-decoration: none;
+}
+nav ul li.active {
+  opacity: 1;
+}
+nav ul li.active:hover {
+  color: white;
+}
+nav ul li.active:hover a {
+  color: white;
+}
+
+p{
+  padding-left: 1rem;
+}
+
+.imagenHeader {
+  background-image: url(img/header2.png);
+  height: 486px;
+  width: 100%;
+  margin-top: -80px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;  
+  color: antiquewhite;
+  text-shadow: 2px 2px 6px #000;  
+}
+
+.contenedor{
+  width: 80%;
+  margin: 0 auto 20px;
+} 
+article {  
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+article h1 {
+  font-size: 1.2vw;  
+  line-height: 1.5;
+  text-align: center;
+}
+article p {
+  font-family: "Raleway";
+  font-weight: 300;
+  line-height: 1.45;
+  letter-spacing: 1.5px;
+}
+section{
+  padding: 0.5rem;
+}
+
+.f-blanca{
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+section{
+  width: 100%;  
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.seccion-fila{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.seccion-servicios{      
+  background-color:#f98866;
+}
+
+.articulo-servicios{    
+  background-color: #f56337b9;  
+}
+
+.imagen-articulo{  
+  text-align: center;
+  border-radius: 15px;
+}
+
+.titulo-servicios{
+  color:rgb(177, 69, 7);
+  text-align:center;
+}
+
+.seccion-noticias{
+  background-color:#ebe84e;
+  flex-direction: column; 
+}
+
+.articulo-noticias{
+  background-color: #f1e99f;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.titulo-noticias{
+  color:#d6a02c;
+  text-align:center;
+}
+
+.seccion-grupo{    
+  background-color:#44d88e;
+}
+
+.articulo-grupo{  
+  background-color: #80BD9E;  
+}
+
+.imagen-grupo{
+  border-radius: 50%;
+}
+.titulo-grupo{
+  color:rgb(80, 228, 149);
+  text-align:center;
+}
+
+
+
+
+
+footer{
+  display: flex;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  background: rgb(75, 119, 60,0.9);  
+}
+footer section{
+  padding: 1rem;
+  width: 50%;
+  text-align: center;
+  color: #a4f376;
+}
+footer section{
+  flex-direction: column;
+}
