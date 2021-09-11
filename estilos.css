@@ -183,6 +183,8 @@ section{
 .imagen-articulo{  
   text-align: center;
   border-radius: 15px;
+  width: 300px;
+  height: 200px;
 }
 
 .titulo-servicios{
