@@ -126,6 +126,13 @@ p{
   text-shadow: 2px 2px 6px #000;  
 }
 
+img{
+
+  width: 150px; 
+  height: 150px;
+
+}
+
 .contenedor{
   width: 80%;
   margin: 0 auto 20px;
@@ -172,7 +179,7 @@ section{
   height: auto;
 }
 
-.seccion-servicios{      
+.services-section{      
   background-color:#f98866;
 }
 
@@ -190,7 +197,7 @@ section{
   text-align:center;
 }
 
-.seccion-noticias{
+.news-section{
   background-color:#ebe84e;
   flex-direction: column; 
 }
@@ -208,7 +215,7 @@ section{
   text-align:center;
 }
 
-.seccion-grupo{    
+.team-section{    
   background-color:#44d88e;
 }
 
@@ -223,10 +230,6 @@ section{
   color:rgb(80, 228, 149);
   text-align:center;
 }
-
-
-
-
 
 footer{
   display: flex;
