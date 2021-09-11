@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Mi primera pagina web</title>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Salud a la mesa</title>
+  <meta name="description" content="Comida sana y deliciosa">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
+<<<<<<< HEAD
 <body>
     <div class="container">
 
@@ -139,16 +142,31 @@
             </div>
         </div>
     </div>
+=======
+<body>  
 
-        </div>
+  <header>
 
-        <!-- Espacio para la sección de equipo - persona a cargo Guillermo -->
+    <span class="menu-icon">☰</span>    
+    <nav>
+      <ul>
+        <li><i class="fa fa-home"></i>&nbsp;<a href="#">Inicio</a></li>
+        <li><i class="fas fa-leaf"></i>&nbsp;<a href="#">Servicios</a></li>
+        <li><i class="fas fa-newspaper"></i>&nbsp;<a href="#">Noticias</a></li>
+        <li><i class="fa fa-user"></i>&nbsp;<a href="#">Nuestro equipo</a></li>
+      </ul>
+    </nav>    
+>>>>>>> devs
 
-        <div class="section-3">
-            <p class="section-text">Section 3</p>
-            <div class="col-5">
-                    <p>
+    <h1 class="imagenHeader">
+      Salud a la mesa
+    </h1>
+
+  </header>
+
+  <main class="contenedor">
     
+<<<<<<< HEAD
                         <i class="fas fa-ambulance" style="font-size:150px"></i>
                     </p>
                     <div class="service-content">
@@ -240,8 +258,144 @@
 
 
 
+=======
+    <h2 class="titulo-servicios centrarTexto">Nuestros servicios</h2>
+
+    <section class="services-section" id="services">
+
+      <article class="articulo-servicios">
+        <img class="imagen-articulo" src="./img/productos.jpg">
+        <h3 class="title-servicios">Venta de productos orgánicos</h3>
+        En nuestras huertas tenemos frutas, verduras, legumbres, cereales y otros productos esenciales que ayudan a mantener una nutrición sana, completa y equilibrada.
+      </article>
+
+      <article class="articulo-servicios">
+        <img class="imagen-articulo" src="./img/objetivos-nutricionales-3-1100x408.jpg">
+        <h3 class="title-servicios">Asesoramiento nutricional profesional</h3>
+        Nutrirse adecuadamente es uno de los objetivos que cada vez persiguen más personas.
+        Tenemos expertos nutricionales que le pueden ayudar a alcanzar los máximos objetivos en el mínimo tiempo.    
+      </article>  
+
+      <article class="articulo-servicios">
+        <img class="imagen-articulo" src="./img/huertos.jpg">
+        <h3 class="title-servicios">Quiere fabricar su propia huerta casera?</h3>
+        Qué tal si le asesoramos profesionalmente para que usted mismo fabrique su propia huerta casera, en donde disponga siempre de productos de calidad, muy frescos y sabiendo siempre qué está consumiendo.         
+      </article>
+      
+    </section>
+
+    <h2 class="titulo-noticias centrarTexto">Noticias y Recetas</h2>
+
+    <section class="news-section" id="news">
+      
+      <section class="seccion-fila">
+        
+        <article class="articulo-noticias">
+          <img class="imagen-articulo" src="img/noticia_1.jpg">
+          <div>
+            <h2>Cuida el organismo y tu peso</h2>
+            Los alimentos y bebidas que se consumen a diario son el combustible del organismo y pueden afectar de forma positiva o negativa diversos sistemas a corto o largo plazo.
+          </div>  
+        </article>
+  
+        <article class="articulo-noticias">
+          <img class="imagen-articulo" src="img/noticia_2.jpg">
+          <div>
+            <h2>Alimentación y actividad física</h2>
+            Aprende a combinar la alimentación y la actividad física para un cuerpo saludable
+          </div>  
+        </article>  
+
+      </section>      
+      
+      <section class="seccion-fila">
+
+        <article class="articulo-noticias">
+          <img class="imagen-articulo" src="img/pasta.jpg">
+          <div>
+            <h2>Pasta con jamó n espárragos y alcachofas</h2>
+            Una receta para almorzar con muy pocos ingredientes,
+            Los espárragos verdes tienen muy pocas calorías y aportan mucha fibra, 
+            también vitaminas, sobre todo A, B1, B2, B6, C y E; y minerales
+            y las alcachofas contienen fósforo, hierro, magnesio, calcio, potasio y vitaminas
+          </div>
+        </article>
+  
+        <article class="articulo-noticias">
+          <img class="imagen-articulo" src="img/sirope.jfif">
+          <div>
+            <h2>sirope de ágave</h2>
+            Cambia la rutina con un sirope de cereal integral mucho más saludable
+            que el azúcar refinado y contienen enzimas, minerales y vitaminas.
+          </div>
+        </article>
+      </section>      
+    </section>
+
+    <h2 class="titulo-grupo centrarTexto">Nuestro equipo de trabajo</h2>
+
+    <section class="team-section" id="team">
+
+      <article class="articulo-grupo">
+        <img class="imagen-grupo" src="img/alex.png">
+        <h2>Alexander Pachón</h2>
+        <p>Producto Owner</p> Apasionado por el desarrollo web y los temas de tecnologías de la información.
+        Convencido de la necesidad de trabajar en ampliar nuestros conocimientos todos los días.
+        Me fascinan las espinacas y las ensaladas de atún con aguacate.
+      </article>
+
+      <article class="articulo-grupo">
+        <img class="imagen-grupo" src="img/alejo.png">
+        <h2>Alejandro Tique</h2>
+        <p>Scrum Master</p> 
+        Interesado en los temas de Tecnología y Medio Ambiente.
+        Me gusta estar en contacto con la naturaleza, viajar y hacer deporte
+        No salgo de casa sin una mochila
+      </article>  
+
+      <article class="articulo-grupo">
+        <img class="imagen-grupo" src="https://picsum.photos/150">
+        <h2>Gustavo Herrera</h2>
+        <p>Development Team</p> 
+      </article>
+
+      <article class="articulo-grupo">
+        <img class="imagen-grupo" src="img/gabriel.jpg">
+        <h2>Gabriel Rincon</h2>
+        <p>Development Team</p> 
+      </article>
+
+      <article class="articulo-grupo">
+        <img class="imagen-grupo" src="img/guillermo.png">
+        <h2>Guillermo Gomez</h2>
+        <p>Development Team</p> 
+        Nihilista consumado. Diletante de las bellas artes. Amateur informático. 
+        Entusiasta de la comida saludable. 
+        He encontrado en la informática un nuevo coto de caza de conocimientos.
+      </article>
+      
+    </section>
+
+  </main>
+
+  <footer class="footer-section">
+    <section>
+      <h4 class="titulo-footer">Código del sitio</h4>
+      <h6>Mira el código de nuestro sitio web en GitHub<br /> haciendo click <span class="f-blanca">aqui</span></h6>
+    </section>
+    <section>
+      <h4 class="titulo-footer">Conoce nuestro grupo</h4>
+      <h6>Alejandro</h6>
+      <h6>Gustavo</h6>
+      <h6>Gabriel</h6>
+      <h6>Gilberto</h6>
+      <h6>Alex</h6>      
+    </section>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="scripts.js" async defer></script>
+>>>>>>> devs
 </body>
-
-
 
 </html>
